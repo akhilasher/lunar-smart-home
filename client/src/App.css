@@ -1,0 +1,61 @@
+.header {
+  font-size: 40px;
+  padding: 40px;
+  font-weight: bold;
+  background-color: #303494;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.main {
+  margin: auto;
+  padding: 40px;
+  max-width: 1000px;
+}
+
+.main > details {
+  margin-bottom: 20px;
+}
+
+.column {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.row {
+  display: flex;
+  /* gap: 20px; */
+  align-items: center;
+}
+
+.logs {
+  background-color: #1a1b26;
+  padding: 25px;
+  max-height: 250px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+hr {
+  border-color: darkgray;
+}
+
+.room-name {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.room {
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 2px solid darkgray;
+}
+
+h3 {
+  font-size: 20px;
+}

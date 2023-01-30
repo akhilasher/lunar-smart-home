@@ -1,0 +1,3 @@
+url: http://localhost:3000
+tunnel: 9071b201-c652-4ec3-9d97-d2118720bb50
+credentials-file: /home/techno/.cloudflared/9071b201-c652-4ec3-9d97-d2118720bb50.json
